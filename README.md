@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛠️ Issue Tracker | Collaborative Task Management Tool
 
-## Getting Started
+[![Live Demo](https://img.shields.io)](https://issue-tracker-kappa-eosin.vercel.app)
 
-First, run the development server:
+A modern, responsive application designed for tracking and managing project tasks, simulating a professional **Agile workflow**.
+This tool streamlines team collaboration by providing a centralized hub for bug reporting and feature tracking.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Visual Preview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Task Board View | Issue Details |
+<img width="1361" height="598" alt="6" src="https://github.com/user-attachments/assets/97217331-f5df-40f2-856e-9140c5cf354d" />
+<img width="1361" height="611" alt="7" src="https://github.com/user-attachments/assets/cec9822b-e118-4b97-b53c-0700729a7a14" />
+<img width="870" height="643" alt="8" src="https://github.com/user-attachments/assets/3db01623-0c5c-4dfc-988f-378ab17aefeb" />
+<img width="1334" height="600" alt="image" src="https://github.com/user-attachments/assets/a6a75ded-78ec-4409-94f3-ffdbab48506c" />
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📋 Task Management
+- **Full CRUD Operations**: Users can **Create, Read, Update, and Delete** issues with ease.
+- **Dynamic Filtering**: Implemented complex logic to sort and filter tasks by status, priority, or assignee.
+- **Real-time Updates**: Optimized state management to ensure a seamless experience when transitioning between task views.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 💻 User Experience
+- **Responsive Design**: Built with a mobile-first approach to work perfectly on all screen sizes.
+- **Agile Workflow**: Designed the UI to mimic professional project management tools used in the tech industry.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Technical Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework**: **Next.js** (App Router)
+- **Frontend**: **React** with **Tailwind CSS** for modern styling
+- **Data Fetching**: Efficient **API Route** handling for server-side operations
+- **Deployment**: **Vercel**
+
+---
+
+## 🏗️ Architecture & Challenges
+- **The Challenge**: Managing complex filtering and sorting logic without sacrificing application performance.
+- **The Solution**: Leveraged **Next.js server components** and efficient state management to handle data processing, resulting in a fast and responsive interface.
+
+---
+
+---
+
+## ⚡ How to Run Locally
+
+1. **Clone the repo:**
+   `git clone https://github.com`
+
+2. **Install Dependencies:**
+   `npm install`
+
+3. **Set up Environment Variables:**
+   Create a file named `.env` in the root directory and add the following:
+   ```env
+   DATABASE_URL="your_database_url_here"
+   NEXTAUTH_URL="http://localhost:3000"
+   NEXTAUTH_SECRET="your_secret_key"
+   GOOGLE_CLIENT_ID="your_google_id"
+   GOOGLE_CLIENT_SECRET="your_google_secret"
